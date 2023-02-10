@@ -677,7 +677,7 @@ the following example:
 This configuration is the same as above for the chemistry users.
 However, ``GROUP_ACCEPT_SURPLUS`` is set to ``False`` globally,
 ``False`` for the physics parent group, and ``True`` for the subgroups
-group_physics.lep and group_physics.lep. This means that
+group_physics.lep and group_physics.hep. This means that
 group_physics.lep and group_physics.hep are allowed to exceed their
 quota of 15 and 5, but their sum cannot exceed 20, for that is their
 parent's quota. If the group_physics had ``GROUP_ACCEPT_SURPLUS`` set
